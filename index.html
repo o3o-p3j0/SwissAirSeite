@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>DBE Übung 6</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="results.css" />
+</head>
+
+<body>
+  <header>
+    <img src="resources/img/dbe_logo.svg" alt="DBE-Logo">
+    <ul>
+      <li>Buchen & Vorbereiten</li>
+      <li>Meine Buchungen</li>
+      <li>DBE Fly entdecken</li>
+    </ul>
+  </header>
+  <div id="hero">
+    <div id="booking_menu">
+      <div id="selector_container">
+        <a class="selector" href="#output1"><img src="resources/img/plane_red.svg" alt="Flugzeugsymol"><span
+            class="desktop">Flüge</span></a>
+        <a class="selector" href="#output2"><img src="resources/img/plane_bed.svg" alt="Flugzeug und Hotelsymbol"><span
+            class="desktop">Flug &
+            Hotel</span></a>
+        <a class="selector" href="#output3"><img src="resources/img/car.svg" alt="Autosymbol"><span
+            class="desktop">Mietwagen</span></a>
+        <a class="selector" href="#output4"><img src="resources/img/bed.svg" alt="Hotelsymbol"><span
+            class="desktop">Hotel</span></a>
+      </div>
+      <div id="output_container">
+        <div id="output1" class="output_tab">
+          <div class="row">
+            <div class="output_text">Hin- und Rückflug</div>
+            <div class="output_text">Economy, 1 Reisende(r)</div>
+            <div class="output_text">Nur Nonstop Flüge</div>
+          </div>
+          <div class="row">
+            <input id="input_fly_from" type="text" placeholder="Von">
+            <div class="swap_circle">
+              <img src="resources/img/arrow-right-left-.svg" alt="Pfeile nach links und rechts">
+            </div>
+            <input id="input_fly_to" type="text" placeholder="Nach">
+            <input id="input_fly_date" type="text" placeholder="Abflug-Rückflug">
+            <button id="button_fly_search" type="submit">Suchen</button>
+          </div>
+        </div>
+        <div id="output2" class="output_tab">
+          <div class="row">
+            <input id="input_fly_from2" type="text" placeholder="Von">
+            <input id="input_fly_to2" type="text" placeholder="Nach">
+          </div>
+          <div class="row">
+            <input id="departure_date" type="text" placeholder="Abflugdatum">
+            <input id="return_flight_date" type="text" placeholder="Rückflugdatum">
+            <input id="travel_time" type="text" placeholder="Reisedauer">
+          </div>
+        </div>
+        <div id="output3" class="output_tab">
+          <div class="row">
+            <input id="rental_station" type="text" placeholder="Anmietstation">
+            <input id="rental_date" type="text" placeholder="Anmietdatum">
+            <input id="rental_time" type="text" placeholder="Uhrzeit">
+          </div>
+          <div class="row">
+            <input id="return_station" type="text" placeholder="Rückgabestation">
+            <input id="return_date" type="text" placeholder="Anmietdatum">
+            <input id="return_time" type="text" placeholder="Uhrzeit">
+          </div>
+        </div>
+        <div id="output4" class="output_tab">
+          <div class="row">
+            <input id="hotel_destination" type="text" placeholder="Zielort">
+            <input id="hotel_arrivale" type="text" placeholder="Anreisedatum">
+            <input id="hotel_departure" type="text" placeholder="Abreisedatum">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Suchergebnisse -->
+  <div id="results_container">
+    <!-- erste Box als Vorlage zum Duplizieren -->
+    <div class="result" id="result_1">
+      <div class="departure">
+        <h3 id="departure_time_1">19:41</h3>
+        <h5 id="departure_IATA_1">BER</h5>
+      </div>
+      <div class="stops">
+        <hr />
+        <div class="stops_text">
+          <p class="count_stops" id="count_stops_1">1</p>
+          <p id="test_stopp_1">Stopp</p>
+        </div>
+      </div>
+      <div class="arrival">
+        <h3 id="arrival_time_1">22:22</h3>
+        <h5 id="arrival_IATA_1">STR</h5>
+      </div>
+      <div class="duration">
+        <img src="resources/img/clock.svg" height="10px">
+        Dauer <span id="duration_1">2h 35min</span>
+      </div>
+      <div class="terminal">
+        Terminal <span id="terminal_1">1</span>
+      </div>
+      <div class="economy_price">
+        <h5>Economy</h5>
+        <h6>ab</h6>
+        <h4 id="economy_price_1">191,67</h4>
+        <h6>EUR</h6>
+        <img src="resources/img/arrow-down.svg" alt="">
+      </div>
+      <div class="business_price">
+        <h5>Business</h5>
+        <h6>ab</h6>
+        <h4 id="business_price_1">236,67</h4>
+        <h6>EUR</h6>
+        <img src="resources/img/arrow-down.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <section id="section">
+    <article>
+      <div class="img_border">
+        <img src="resources/img/budapest.JPG" alt="">
+      </div>
+      <div class="article_text">
+        <h3>Flugplan 2024</h3>
+        <h2>Entdecken Sie unsere neuen Destinationen</h2>
+      </div>
+    </article>
+    <article>
+      <div class="img_border">
+        <img src="resources/img/reading.JPG" alt="">
+      </div>
+      <div class="article_text">
+        <h3>DBE Travel Briefing</h3>
+        <h2>Profitieren Sie vom Reiseleitfaden</h2>
+      </div>
+    </article>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="17mm" height="14mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1700 1400"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#FEFEFE;stroke-width:20}
+    .str0 {stroke:#FEFEFE;stroke-width:7.62}
+    .fil0 {fill:#FEFEFE}
+   ]]>
+  </style>
+ </defs>
+ <g id="Ebene_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="flight-takeoff-svgrepo-com.svg">
+   <g id="SVGRepo_bgCarrier">
+   </g>
+   <g id="SVGRepo_tracerCarrier">
+   </g>
+   <g id="SVGRepo_iconCarrier">
+    <path class="fil0 str0" d="M1287 78c-62,28 -160,82 -269,145l-526 -74c-9,-1 -19,-2 -29,-2 -21,0 -40,3 -59,9l-114 32c-9,0 -9,9 0,13l439 193c-148,88 -280,169 -338,206 -12,8 -27,12 -44,12 -9,0 -18,-1 -26,-4l-114 -36c-9,-3 -18,-5 -28,-5 -10,0 -20,2 -29,5l-72 30 242 202c15,12 34,19 54,19 13,0 25,-2 35,-7 116,-52 421,-192 648,-311 504,-267 560,-313 560,-356 0,-66 -192,-134 -330,-71l0 0z"/>
+    <polygon class="fil0 str0" points="78,1112 1617,1112 1617,1208 78,1208 "/>
+   </g>
+  </g>
+  <rect class="fil0 str0" x="42" y="924" width="79.94" height="443.6"/>
+  <rect class="fil0 str0" x="1542" y="1208" width="75.38" height="159.48"/>
+  <path class="fil0 str1" d="M166 1082l178 0 0 -50c0,-49 -40,-89 -89,-89l0 0c-49,0 -89,40 -89,89l0 50z"/>
+  <path class="fil0 str1" d="M412 1082l1136 0 0 -1c0,-81 -67,-148 -149,-148l-872 0c-73,0 -132,59 -132,131l0 0c0,10 8,18 17,18z"/>
+ </g>
+</svg>

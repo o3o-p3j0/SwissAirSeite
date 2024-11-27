@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="17mm" height="14mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1700 1400"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#FEFEFE;stroke-width:20}
+    .str0 {stroke:#FEFEFE;stroke-width:7.62}
+    .fil0 {fill:#FEFEFE}
+   ]]>
+  </style>
+ </defs>
+ <g id="Ebene_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="SVGRepo_bgCarrier">
+  </g>
+  <g id="SVGRepo_tracerCarrier">
+  </g>
+  <polygon class="fil0 str0" points="78,722 1617,722 1617,818 78,818 "/>
+  <rect class="fil0 str0" x="42" y="534" width="79.94" height="443.6"/>
+  <rect class="fil0 str0" x="1542" y="818" width="75.38" height="159.48"/>
+  <path class="fil0 str1" d="M166 692l178 0 0 -50c0,-49 -40,-89 -89,-89l0 0c-49,0 -89,40 -89,89l0 50z"/>
+  <path class="fil0 str1" d="M412 692l1136 0 0 -1c0,-81 -67,-148 -149,-148l-872 0c-73,0 -132,59 -132,131l0 0c0,10 8,18 17,18z"/>
+ </g>
+</svg>
